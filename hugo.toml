@@ -1,0 +1,31 @@
+baseURL = "https://kohiro2n2d-bit.github.io/japan-study-guide/"
+  locale = "en-us"
+  title = "Japan Study Guide"
+  theme = "PaperMod"
+
+  [params]
+    homeInfoParams = {Title = "Study in Japan", Content = "Your complete guide to studying in Japan"}
+    ShowReadingTime = true
+    ShowPostNavLinks = true
+
+  [menu]
+    [[menu.main]]
+      name = "Scholarships"
+      url = "/scholarships/"
+      weight = 1
+    [[menu.main]]
+      name = "Visa"
+      url = "/visa/"
+      weight = 2
+    [[menu.main]]
+      name = "Universities"
+      url = "/universities/"
+      weight = 3
+    [[menu.main]]
+      name = "Regions"
+      url = "/regions/"
+      weight = 4
+    [[menu.main]]
+      name = "Blog"
+      url = "/blog/"
+      weight = 5
